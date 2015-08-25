@@ -1,28 +1,35 @@
+%%\documentclass{article}
 \documentclass[a5paper,landscape]{article}
+\usepackage [spanish] {babel}
+\usepackage[T1]{fontenc}
+\usepackage [utf8]{inputenc}
 \usepackage[margin=1.25in,right=2.2in,height=2.32in, width=3.46in]{geometry}
+%%\usepackage[paperwidth=85mm, paperheight=55mm, layoutwidth=85mm, layoutheight=55mm, left=0mm, top=0mm, right=0mm, bottom=0mm]{geometry}
+
 % Nice color names
 \usepackage[usenames,dvipsnames]{xcolor}
 % No page numbers
 \pagestyle{empty}
 % Blue is the new green
+
 \newcommand{\blue}[1]{\texttt{\color{JungleGreen} #1}}
 \newcommand{\red}[1]{\texttt{\color{WildStrawberry} #1}}
 
 \begin{document}
 \noindent
 \Huge
-\red{Ariel Pardo} \\
-\blue{docente de matematicas} \\
+\red{Ariel Marcelo Pardo} \\
+\blue{Docente full-time matemática} \\
 %\blue{berlin based and remote} \\
 %\blue{hacking }\red{web}\blue{, }\red{mobile}\blue{, }\red{aeronautics} \\
 %\red{code }\blue{github.com/strathausen} \\
-\red{skype }\blue{no me acuerdo, preguntarle a verito} \\
+\red{facebook }\blue{ariel.m.pardo.3} \\
 \red{twitter }\blue{@ariel\_pardo} \\
 \red{email }\blue{adoorno@gmail.com} \\
-\red{phone }\blue{+15 65 66 04 66}
+\red{cel }\blue{+15 65 66 04 66}
 \clearpage
 \pagecolor{MidnightBlue}
 \color{White}
 \noindent
-\texttt{holaaaaaaa!que hago aqui? inserto un logo?, necesito revisar los tamaños}
+\texttt{hola.}
 \end{document}
